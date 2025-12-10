@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putra Te Humbura - Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="logo-text">
+        <img src="images/logo.png" alt="Putra Te Humbura Logo" class="logo-icon">
+        Putra Te Humbura
+    </h1>
+    <nav>
+        <a href="index.html">N'Kolibe</a>
+        <a href="about.html">Rreth Nesh</a>
+        <a href="adopt.html">Adoptimi</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<section class="form-section">
+    <h2>Register</h2>
+    <form id="register-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" required>
+
+        <button type="submit" class="btn primary">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+    <div id="register-msg"></div>
+</section>
+
+<footer>
+    <p>Putra Te Humbura<!-- ne pritje te logos <img src="images/logo.png" alt="Putra Te Humbura Logo" class="logo-icon">--></p>
+</footer>
+
+<!-- Link external JS -->
+<script src="js/register.js"></script>
+
+</body>
+</html>
